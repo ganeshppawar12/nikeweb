@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.justin{
+    padding: 20px 3vw;
+
+}
+.justin h3{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.JustInImg {
+display:flex;
+align-items: center;
+justify-content: center;
+}
+.JustInImg img{
+    width:93vw;
+}
+.justinSlogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;  
+}
+.AirMax{
+    font-size: 16px;
+    margin: 25px 0 0 0;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+.ROAM{
+    font-size: 5vw;
+   line-height: 65px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: -10px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+
+    margin-bottom: 20px;
+
+}
+
+.justinp{
+    width: 65%;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.Justshopbtn button{
+    background: #000;
+ color: #fff;
+ padding: 10px 20px;
+ font-size: 16px;
+ border: none;
+ outline: none;
+ border-radius: 20px;
+ cursor: pointer;
+ margin-top: 20px;
+}
+.Justshopbtn button:hover{
+    background-color: #3e3b3b;
+
+}
+@media screen and (max-width:600px){
+    /* .MainContainer img{
+        width: 94%;
+        height: 60vh;
+    } */
+    .justin h3{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .AirMax{
+        align-self: start;
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+    .ROAM{
+        /* display: flex; */
+        align-self: start;
+        /* margin-left: 15px; */
+        font-size: 14vw;
+        letter-spacing: -4px;
+        font-weight:900;
+        line-height: 40px;
+        /* text-align: start; */
+  /* justify-content: start; */
+  font-family: 'Poppins', sans-serif;
+    }
+
+   .justinp {
+    padding-top: 10px;
+    font-size: 18px;
+    align-self:self-start
+    /* width: 90%; */
+
+}
+.Justshopbtn{
+    align-self: start;
+    
+}
+}

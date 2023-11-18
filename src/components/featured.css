@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.Featured{
+    padding: 20px 3vw;
+
+}
+.Featured h3{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.Arrowbtn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 5px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.arrow{
+    background-color: rgb(231, 230, 230);
+    padding: 10px;
+  cursor: pointer;
+  color:#7b7b7b;
+    border-radius: 55%;
+    height: 2.8rem !important;
+    width: 2.8rem !important;
+
+}
+.arrow:active{
+    background: #dedddd;
+}
+.feartureiteams{
+    display: flex;
+}
+.FeaturedImage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    overflow-y: hidden;
+    transition:all 1.5s ease;
+    scroll-behavior: smooth;
+
+    /* transform: translateX(-100px); */
+
+   
+}
+.FeaturedImage::-webkit-scrollbar{
+    display: none;
+}
+.image img{
+    width: 30vw;
+    /* transform: translateX(-350px); */
+
+}
+
+
+.image {
+    /* opacity: 0; */
+    transition-duration: 1s ease;
+
+  }
+  
+  .active {
+    /* opacity: 1; */
+    transition-duration: 1s;
+    /* transform: translateX(-300px); */
+
+  }
+@media screen and (max-width:600px){
+    .Featured h3{
+        font-size: 20px;
+font-weight: 400;
+        padding: 0;
+    }
+   
+    .image img{
+      width: 80vw;
+    }  
+    .image h3{
+        padding-top: 5px;
+        font-size: medium;
+       
+    }
+}

@@ -1,0 +1,211 @@
+
+.BagMainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px 15vw;
+}
+.BagContainer{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40vh;
+}
+.Bag h3{
+    font-size: 28px;
+    font-weight: 400;
+}
+.Bag h4{
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.join{
+    font-size: 16px;
+    font-weight: 500;
+    color: #8a8a8a;
+    padding: 10px 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.favourites{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.favourites h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+.favourites p{
+    font-weight: 500;
+}
+.SummaryContainer{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content:space-between;
+    gap: 5vh;
+
+}
+.summery h3{
+    font-size: 28px;
+    font-weight: 400;
+}
+.SubtotalContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.subtotal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vw;
+}
+.subtotal h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+.questionMark{
+    background: #000;
+    color: #fff;
+    padding:0 5px;
+    font-size:10px;
+  
+    border-radius: 50%;
+    margin-left:5px;
+
+}
+.minuslogo{
+    color: #656565 ;
+}
+.Total{
+    border-bottom: 1px solid rgb(189, 189, 189);
+    display: flex;
+    padding: 15px 0;
+    justify-content:space-between;
+    border-top: 1px solid rgb(189, 189, 189);
+
+}
+.Total h3{
+    font-weight: 500;
+}
+.Summarybtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.Summarybtn button{
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8a8a8a;
+    border-radius:30px;
+}
+.Youmight{
+    padding: 20px 3vw;
+}
+.youmaightContainer{
+    display: flex;
+    align-items: center;
+  overflow-y: hidden;
+  gap: 15px;
+  cursor: pointer;
+  scroll-behavior: smooth;
+
+}
+.youmaightContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.youMightImg img{
+    width: 30vw;
+   object-fit:fill;border-radius: 5px;
+}
+.youmighth3{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px 0 0 0;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.yourtitel{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 0 6px 0;
+}
+.yourcategory{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #828282;
+    
+}
+.yourmrp{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+@media screen and (max-width:600px) {
+.BagMainContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+}
+.BagContainer{
+    width: 100%;
+    padding: 0;
+}
+.favourites{
+    display: none;
+}
+.Bag{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10vh;
+    padding: 10px;
+}
+.Bag h4{
+   align-self: flex-start;
+    border-top: 1px solid #d7d7d7;
+    padding: 10px 0;
+    width: 100%;
+}
+/* .youmaightContainerBox{
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* align-items: center; *
+gap: 30px;
+} */
+
+.youmighth3{
+    padding: 30px 0;
+}
+.yourtitel{
+    font-size: 14px;
+    font-weight: 700;
+}
+.yourcategory{
+    font-size: 14px;
+}
+.yourmrp{
+    font-size: 14px;
+    padding: 0 ;
+
+}
+.youMightImg img{
+    width: 60vw;
+   object-fit:fill;
+}
+    
+}

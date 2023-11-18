@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.MenNavbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 3vw;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0;
+    background:#fff;
+
+
+}
+.manmenu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 10px 0;
+}
+.manmenu ul li{
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px 0px;
+    color: #111111;
+    font-family: 'Roboto', sans-serif;
+
+}
+.manmenu ul li:hover{
+    color: #737373;
+}
+.manwallimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.manwallimg img{
+    width: 93vw;
+}
+.manSlogan h1{
+    text-transform: uppercase;
+    font-size:5vmax;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -4px;
+
+}
+.manSlogan h6{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #414141;
+
+}
+.menbtn{
+display: flex;
+align-items: center;
+justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.menbtn button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #000
+    ;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+
+}
+.menbtn button:hover{
+    background: #737373;
+}
+
+.manGif{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.manGif img{
+    border-radius: 20px;
+    width: 50vw;
+    object-fit: cover;
+    height: 80vh;
+}
+.unlimitedmaniContainer{
+    padding: 10px 3vw;
+    margin-top: 40px;
+}
+.unlimitedSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.unlimitedSection h3 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+.unlimitedProductContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+.unlimitedProductContainer::-webkit-scrollbar{
+    display: none;
+}
+.unlimitedBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.unlimitedInfo{
+    margin: 10px 0;
+}
+.unlimitedTitel{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+padding: 5px 0;
+letter-spacing: 0.5px;
+margin: 20px 0;
+}
+.unlimitedShop{
+    background: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin:10px 0 ;
+    padding: 10px ;
+    border-radius: 20px;
+    text-align: center;
+    width: 5vw;
+    /* text-align: start; */
+    margin-right:50px ;
+    cursor: pointer;
+}
+.unlimitedShop:hover{
+   
+    background: #a8a8a8;
+}
+.manFeatureContainer{
+    padding: 20px 3vw;
+}
+.manFeatureContainer h3{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+.manfeatuedimg img{
+    width: 93vw;
+}
+.manfeatureSlogon{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.manfeatureSlogon h1{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 5vmax;
+    letter-spacing: -4px;
+
+
+}
+.manfeatureSlogon h6{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #414141;
+}
+
+.manletestContainer{
+    padding: 30px 3vw;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+    gap: 10px;
+}
+.manletestContainer h3{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    align-self: self-start;
+    margin: 10px 0;
+}
+.manLetestContaineimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 50px;
+    
+}
+
+.manLetestContaineimg img{
+    width: 30vw;
+}
+.manDontMissContainer{
+    padding: 20px 3vw;
+}
+.manDontMissContainer h3{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.dontmiss img{
+    width: 93vw;
+}
+
+.mandontmissSlogon{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+.mandontmissSlogon h1{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 5vmax;
+    letter-spacing: -4px;
+    line-height: 70px;
+}
+.mandontmissSlogon h6{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #414141;
+
+}
+.manEssentialConatiner{
+    padding: 20px 3vw;
+}
+.manEssentialConatiner h3{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+    margin: 10px 0;
+}
+.ShoptheEssentialBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    overflow-y: hidden;
+}
+.ShoptheEssentialBox::-webkit-scrollbar{
+    display: none;
+}
+.manEssentialBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.ShopEsentialImg {
+    margin: 10px 0;
+}
+.ShopEsentialImg img{
+    width: 30vw;
+}
+.manessentialTitel{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+padding: 5px 0;
+letter-spacing: 0.5px;
+margin: 20px 0;
+}
+.manessentialShop{
+    /* background: #000; */
+    /* color: #fff; */
+    font-family: 'Roboto', sans-serif;
+    margin:10px 0 ;
+    text-decoration: underline;
+    /* padding: 10px ; */
+    border-radius: 20px;
+    text-align: center;
+    width: 3vw;
+    font-size: 16px;
+    text-align: start;
+    cursor: pointer;
+}
+.manessentialShop:hover{
+    color: #a8a8a8;
+}
+.manShopBtcontainer{
+    padding: 20px 3vw;
+}
+.sportContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    scroll-behavior: smooth;
+
+    overflow-y: hidden;
+}
+.sportContainer::-webkit-scrollbar{
+    display: none;
+}
+.sportbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.sportimg img{
+    width: 30vw;
+    cursor: pointer;
+}
+.sportInformation p{
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:600px){
+    .MenNavbar{
+        flex-direction: column;
+        align-items: start;
+    }
+    .manSlogan,.manfeatureSlogon{
+        padding:0 3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        /* margin-right: 50px; */
+    }
+    .manSlogan h1,.manfeatureSlogon h1{
+        width: 70%;
+        font-size: 6vmax;
+        
+        line-height: 40px;
+    }
+    .manGif img{
+        border-radius: 10px;
+        width: 90vw;
+        object-fit: cover;
+        height: 70vh;
+    }
+    .manSlogan h6,.manfeatureSlogon h6{
+        width: 70%;
+        text-align: start;
+        margin-top: 20px;
+    }
+    .unlimitedImg img{
+        width: 90vw;
+    }
+    .unlimitedShop{
+        text-align: center;
+        width: 20vw;
+    }
+    /* .manletestContainer{
+        padding: 10px 3vw;
+        align-items: center;
+        /* overflow-y: hidden; *
+    } */
+
+    .manLetestContaineimg{
+        overflow-y:hidden ;
+    }
+    .manLetestContaineimg img{ 
+        width: 93vw;
+        /* overflow-y: hidden; */
+
+     }
+
+    .dontmiss img{
+        display: flex;
+        align-items: center;
+        width: 93vw;
+    }
+    .mandontmissSlogon{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .mandontmissSlogon h1{
+        width: 80%;
+        font-size: 6vmax;
+        text-align: start;
+        
+        line-height: 40px;
+    }
+    .mandontmissSlogon h6{
+        width: 80%;
+        text-align: start;
+        margin-top: 20px;
+    }
+    .ShoptheEssentialBox{
+        flex-direction: column;
+    }
+    .manEssentialBox{
+        width: 100%;
+    }
+    .ShopEsentialImg img{
+        width: 93vw ;
+    }
+
+    .manLetestContaineimg{
+        margin: 0;
+    }
+    .sportimg img{
+        width: 93vw;
+    }
+    
+}

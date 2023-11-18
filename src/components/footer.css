@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.934);
+    padding: 40px 6vw;
+margin-top: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+   
+
+
+
+
+}
+.footerLeftSide{
+    display: flex;
+    justify-content: space-between;
+    width:55%;
+    
+
+}
+.information {
+  width: 30%;
+}
+.information ul{
+    list-style: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+.information ul li{
+    padding: 10px 0;
+cursor: pointer;
+
+}
+.getHelp ul{
+ list-style: none;
+}
+.help{
+    display: flex;
+    padding:0 5px ;
+    font-size: 12px;
+    color: #fff;
+    text-align: start;
+    font-weight: 700;
+}
+
+.getHelp ul li{
+    font-size: 11px;
+    /* width: 100%; */
+    padding: 10px 5px;
+    color: #6d6d6d;
+    letter-spacing: 1px;
+font-weight: 600;
+cursor: pointer;
+
+
+}
+
+.getHelp ul li:hover{
+    color: #fff;
+}
+.AboutUs ul{
+    list-style: none;
+}
+.AboutUs ul li{
+    font-size: 11px;
+    padding:10px 5px;
+    color: #6d6d6d;
+
+font-weight: 600;
+    letter-spacing: 1px;
+cursor: pointer;
+
+}
+.AboutUs ul li:hover{
+    color: #fff;
+}
+
+.footerRightSide{
+    display: flex;
+    gap: 10px;
+    margin:0 40px;
+    flex-wrap: wrap;
+
+}
+.Social{
+    background-color: #9c9a9a;
+    padding: 5px;
+    border-radius: 50%;
+    color: #000;
+    cursor: pointer;
+    height: 35px !important;
+    width: 35px !important;
+}
+.Social:hover{
+    background: #858585;
+}
+.subFooter{
+    background-color: rgba(0, 0, 0, 0.934);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 3vw;
+
+}
+.place{
+    text-align: start !important;
+    /* margin-left: 0px; */
+   
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.india{
+    font-size: 16px;
+    text-align: center;
+    margin: 0 10px;
+    font-weight: 600;
+    
+}
+.reserved{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #9c9a9a;
+    font-size: 12px;
+}
+.point{
+    /* margin: 0 2px; */
+    color: #fff;
+
+}
+.GuidesInfo{
+    display: none;
+}
+.Otherinfo ul{
+    display: flex;
+    list-style: none;
+}
+.Otherinfo ul li {
+    padding: 0 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #9c9a9a;
+    font-size: 12px;
+    cursor: pointer;
+}
+.Otherinfo ul li:hover{
+    color: #fff;
+    
+}
+/* .guides:hover{
+
+} */
+
+@media screen and (max-width:600px) {
+    .footer{
+        flex-direction: column;
+    }
+    .footerLeftSide{
+        flex-direction: column;
+        width: 100%;
+        flex: 1;
+    }
+    .information {
+        width: 100%;
+        border-bottom: 1px solid #b4b4b4;
+        margin: 20px 0;
+      }
+      .getHelp{
+        padding: 10px 0;
+        height: 4vh;
+        overflow: hidden;
+  
+
+      }
+      .getHelp:hover{
+    transition:all 5s ease;
+
+        height: 100%;
+
+
+      }
+      .AboutUs{
+        padding: 20px 0;
+        height: 5vh;
+        overflow: hidden;
+      }
+      .AboutUs:hover{
+        height: 100%;
+
+      }
+
+      .footerRightSide{
+        display: flex;
+        padding: 50px 0 0 0 ;
+        gap: 10px;
+        margin:0 0px;
+        flex-wrap: wrap;
+    
+    }
+    .subFooter{
+        flex-direction: column;
+    }
+    .place{
+        width: 100%;
+        padding:0 0 20px 0;
+    }
+    .Otherinfo{
+        width: 100%;
+    }
+    .Otherinfo ul{
+        flex-direction: column;
+        align-items: self-start;
+        justify-content: start;
+        gap: 30px;
+    }
+    .place{
+    padding:0 0 30px 0;
+    margin-left: 30px;
+    }
+    .point{
+    
+        align-self: self-start;
+    }
+    .india{
+        font-size: 16px;
+        font-weight: 400;
+        align-self: self-start;
+        /* width: 20%; */
+        /* padding: 0  260px 0 0; */
+    }
+}

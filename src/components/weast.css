@@ -1,0 +1,554 @@
+.form {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+  
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body, html{
+    height: 100%;
+    width: 100%;
+    
+  
+  
+    
+  
+  }
+  
+  .navbar{
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap:8px;
+    
+    /* border-bottom: 1px solid gray; */
+  } 
+  .navimg img{
+    width: 50px;
+    text-align: center;
+  }
+  .navimg img:hover{
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+    
+  }
+  
+  .options ul{
+    display: flex;
+    gap:2vw;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+  
+  }
+  .options ul li{
+    transition:all .3s ease-in ;
+  
+  }
+  .options ul li:hover{
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+    transform:translateY(-2px);
+  }
+  .login button{
+    background-color: #d01c28;
+    color: #fff;
+    border-radius:2px ;
+    padding: 6px 16px;
+    margin: 0 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+  .login button:hover{
+    background-color: #a41a23;
+    cursor: pointer;
+    color: aliceblue;
+  
+  }
+  main{
+  
+    margin: 35px 0 0 0;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+   
+  }
+  .section1, .section2{
+    width: 100%;
+    
+  }
+  h2{
+    text-transform: uppercase;
+    font-size: 7vw;
+    line-height: 100%;
+  }
+  p{
+    width: 70%;
+    font-size: 2.5vmin;
+    font-weight: 600;
+    padding: 25px 0;
+    
+    text-transform: uppercase;
+  
+  }
+  
+  .btn{
+    display: flex;
+    
+    gap: 5vw;
+  
+  }
+  .btn button{
+    
+    border: none;
+    outline: none;
+    padding: 8px 18px;
+     color: #fff;
+  background-color: #d01c28;
+    font-weight: 600;
+    transition: all 0.5s ease;
+  
+  }
+  .btn .btn1{
+    flex-wrap: nowrap;
+  }
+  .btn .btn2 {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+  }
+  .btn .btn1:hover{
+    cursor: pointer;
+    background-color: #a41a23;
+  }
+  .btn .btn2:hover{
+    cursor: pointer;
+    transform:translateY(-0.2px);
+  }
+  
+  .section2{
+    margin-top: 20px;
+  }
+  .section2 img{
+    width: 80%;
+    
+  
+    transition: all 0.5s ease;
+    
+  }
+  .l{
+   
+    mix-blend-mode:multiply; 
+  }
+  .section2 img:hover{
+    transform: translateY(-5px);
+  }
+  
+  .brandlogo p{
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 2px;
+   display: flex;
+   flex: 1;
+  }
+  .brandshop{
+    display: flex;
+    gap: 5vmin;
+  }
+  .brandshop img:hover{
+    cursor: pointer;
+  }
+  .hamburger{
+    display: none;
+  }
+  .img2{
+    display: none;
+  }
+  
+  
+  @media screen  and (max-width:600px){
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    } 
+    .navbar{
+     position: relative;
+     
+     transition: all 1.5s ease-in-out;
+    }
+   
+     .navimg img {
+      position: absolute;
+      top: 8px;
+      left: 50px;
+  
+     }
+     .login{
+      position: absolute;
+      top: 12px;
+      right: 55px;
+     }
+  .hambu  {
+    height: 35vh;
+    transition: all 1.5s ease-in-out;
+  
+  }
+  
+   .hambu  ul{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5px solid #e5e5e5;
+    
+  
+    
+  }
+  .hambu  ul li{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  
+    
+   .hamburger{
+      display: block;
+      position: absolute;
+       top: 15px;
+       text-align: center;
+       right: 20px;
+    }
+    .options ul{
+      display: none;
+    }
+    
+   main{
+    
+    margin-top: 50px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+     overflow: hidden;
+      
+    }
+    h2{
+      font-size: 15vmin ;
+    }
+  
+    main p{
+      width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    /* padding: 25px 0; */
+    
+    text-transform: uppercase;
+    }
+  
+    .section2 img{
+     
+      width: 100%;
+    }
+    
+  }
+  
+  @media screen and (max-width:230px) {
+    .login{
+      display: none;
+    }
+    
+    .btn{
+      display: flex;
+      flex-direction: column;
+    }
+    .btn .btn1,.btn2{
+      text-align: center;
+      font-size: 10px;
+      overflow: hidden;
+    }
+  }
+  Link{
+    list-style: none;
+  }
+  
+  @media screen and (max-width:137px) {
+    .hamburger{
+        display: none;
+    }
+    
+  }
+  main{
+
+    margin: 35px 0 0 0;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+   
+  }
+  .section1, .section2{
+    width: 100%;
+    
+  }
+  h2{
+    text-transform: uppercase;
+    font-size: 7vw;
+    line-height: 100%;
+  }
+  p{
+    width: 70%;
+    font-size: 2.5vmin;
+    font-weight: 600;
+    padding: 25px 0;
+    
+    text-transform: uppercase;
+  
+  }
+  
+  .btn{
+    display: flex;
+    
+    gap: 5vw;
+  
+  }
+  .btn button{
+    
+    border: none;
+    outline: none;
+    padding: 8px 18px;
+     color: #fff;
+  background-color: #d01c28;
+    font-weight: 600;
+    transition: all 0.5s ease;
+  
+  }
+  .btn .btn1{
+    flex-wrap: nowrap;
+  }
+  .btn .btn2 {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+  }
+  .btn .btn1:hover{
+    cursor: pointer;
+    background-color: #a41a23;
+  }
+  .btn .btn2:hover{
+    cursor: pointer;
+    transform:translateY(-0.2px);
+  }
+  
+  .section2{
+    margin-top: 20px;
+  }
+  .section2 img{
+    width: 80%;
+    
+  
+    transition: all 0.5s ease;
+    
+  }
+  .l{
+   
+    mix-blend-mode:multiply; 
+  }
+  .section2 img:hover{
+    transform: translateY(-5px);
+  }
+  
+  .brandlogo p{
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 2px;
+   display: flex;
+   flex: 1;
+  }
+  .brandshop{
+    display: flex;
+    gap: 5vmin;
+  }
+  .brandshop img:hover{
+    cursor: pointer;
+  }
+  .hamburger{
+    display: none;
+  }
+  .img2{
+    display: none;
+  }
+  @media screen  and (max-width:600px){
+    /* *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    } 
+    .navbar{
+     position: relative;
+     
+     transition: all 1.5s ease-in-out;
+    }
+   
+     .navimg img {
+      position: absolute;
+      top: 8px;
+      left: 50px;
+  
+     }
+     .login{
+      position: absolute;
+      top: 12px;
+      right: 55px;
+     }
+  .hambu  {
+    height: 35vh;
+    transition: all 1.5s ease-in-out;
+  
+  }
+  
+   .hambu  ul{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5px solid #e5e5e5;
+    
+  
+    
+  }
+  .hambu  ul li{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  
+    
+   .hamburger{
+      display: block;
+      position: absolute;
+       top: 15px;
+       text-align: center;
+       right: 20px;
+    }
+    .options ul{
+      display: none;
+    } */
+    
+   main{
+    
+    margin-top: 50px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+     overflow: hidden;
+      
+    }
+    h2{
+      font-size: 15vmin ;
+    }
+  
+    main p{
+      width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    /* padding: 25px 0; */
+    
+    text-transform: uppercase;
+    }
+  
+    .section2 img{
+     
+      width: 100%;
+    }
+    
+  }
+
+  

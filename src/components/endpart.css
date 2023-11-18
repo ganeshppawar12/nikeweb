@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.endpartContainer{
+    padding: 50px 2vw;
+    font-family: 'Roboto', sans-serif;
+}
+.endpart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:6.0vw;
+  
+
+}
+.endpartContainer{
+    height: 35vh;
+    overflow: hidden;
+    /* transition: all 5s ease-in; */
+    transition: all 1.2s ease;
+
+
+}
+
+.endpartContainer:hover{
+    height: 100%;
+
+    /* transform:translateY(5px); */
+    transition: all 1.2s ease;
+}
+
+.icon h3{
+    padding:0 0 20px 10px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+
+}
+.icon ul{
+    list-style: none;
+}
+.icon ul li{
+    font-size: 17px;
+    color: rgb(150, 148, 148);
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+
+}
+.icon ul li:hover{
+    color: black;
+}
+.Shoes h3{
+    padding:0 0 20px 10px;
+
+
+    font-weight: 400;
+    cursor: pointer;
+
+}
+.Shoes ul{
+    list-style: none;
+}
+.Shoes ul li{
+    font-size: 17px;
+    color: rgb(150, 148, 148);
+    padding: 10px;
+
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.Shoes ul li:hover{
+    color: black;
+}
+.Clothing h3{
+    padding:0 0 20px 10px;
+
+    font-weight: 400;
+    cursor: pointer;
+
+}
+.Clothing ul{
+    list-style: none;
+}
+.Clothing ul li{
+    font-size: 17px;
+    color: rgb(150, 148, 148);
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.Clothing ul li:hover{
+    color: black;
+}
+.Kidsiteam h3{
+    padding:0 0 20px 10px;
+
+    font-weight: 400;
+    cursor: pointer;
+
+}
+.Kidsiteam ul{
+    list-style: none;
+}
+.Kidsiteam ul li{
+    font-size: 17px;
+    color: rgb(150, 148, 148);
+    padding: 10px;
+
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.Kidsiteam ul li:hover{
+    color: black;
+}
+
+@media screen and (max-width:1050px){
+    .endpartContainer{
+        height: 30vh;
+        /* transition: all 1s ease-out; */
+    }
+    .endpart{
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.icon {
+    height: 3vh;
+    overflow: hidden;
+   
+}
+.icon:hover{
+    height: 100%;
+}
+.Shoes {
+    height: 3vh;
+    overflow: hidden;
+}
+.Shoes:hover{
+    height: 100%;
+}
+.Clothing {
+    height: 3vh;
+    overflow: hidden;
+}
+.Clothing:hover{
+    height: 100%;
+}
+.Kidsiteam {
+    height: 3vh;
+    overflow: hidden;
+}
+.Kidsiteam:hover{
+    height: 100%;
+}
+
+}

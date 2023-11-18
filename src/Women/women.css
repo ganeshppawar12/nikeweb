@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.WomenNavbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 3vw;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0;
+    background:#fff;
+
+}
+.womenmenu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 10px 0;
+
+}
+.womenmenu ul li{
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px 0px;
+    color: #111111;
+    font-family: 'Roboto', sans-serif;
+}
+.womenmenu ul li:hover{
+    color: #737373;
+}
+
+.womenWallImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.womenWallImg img{
+    width: 93vw;
+}
+
+.womenGif{
+    display: flex;
+    margin: 50px 0;
+    align-items: center;
+    justify-content: center;  
+}
+
+.womenGif img{ 
+    width: 40vw;
+    object-fit:fill;
+    height: 60vh;
+}
+.womenFeature{
+    padding: 20px 3vw;
+
+}
+.womenTrandingNavBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.womenFeature h3{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.womenTrandingNow{
+    padding: 20px 3vw;
+}
+
+.WomenTrandingNowBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 0;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+.WomenTrandingNowBox::-webkit-scrollbar{
+    display: none;
+}
+
+.WomenTrendingImg{
+    display: flex;
+    align-items: center;
+    height: 70%;
+    justify-content: center;
+}
+.WomenTrendingImg img{
+  width: 30vw;
+}
+.WomanTrendingInformation{
+    margin: 20px 0;
+
+}
+.WomenTrandingTitel{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+      margin: 10px 0;
+      cursor: pointer;
+
+}
+.WomenTrandingCategory{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+      margin: 10px 0; 
+      color: #737373;
+}
+.WomenTrandingMrp{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.womenFeaturedImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.womenFeaturedImg img{
+width: 50vw;
+}
+.WomenMore{
+  padding: 20px 3vw;
+}
+.womenmoreImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    overflow-y: hidden;
+    margin: 20px 0;
+    scroll-behavior: smooth;
+}
+.womenmoreImg::-webkit-scrollbar{
+    display: none;
+}
+.womenmoreImg img{
+    width: 30vw;
+}
+
+.BuyingGuidesContainer{
+    padding: 20px 3vw;
+}
+.BuyingGuidesContainer h3{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+.BuyingGuideImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    overflow-y: hidden;
+}
+.BuyingGuideImg img{
+    width: 32vw;
+}
+
+.womenShopEssential{
+    padding: 20px 3vw;
+}
+.womenEssentialHead h3{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 20px 0;
+    margin: 10px 0;
+}
+
+.womenShopContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+}
+.womenShopContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.womenEssentialHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+
+}
+.womenshopImg img{
+    width: 30vw;
+}
+
+.womenShopInfromation{
+    margin: 40px 0;
+}
+.womenShopInfromation p{
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+
+    /* margin: 20px  0; */
+}
+
+.womenBanet1{
+    padding: 20px 3vw;
+}
+.womenBaner1img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.womenBaner1img img{
+    width: 93vw;
+}
+.womenShopBtn{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.womenShopBtn button{
+    font-family: 'Roboto', sans-serif;
+    background: #000;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.womenShopBtn button:hover{
+    background-color: #5d5d5d;
+}
+
+.womenBaner2{
+    padding: 20px 3vw;
+}
+.womenbanerImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.womenbanerImg img{
+    width: 93vw;
+}
+
+@media screen and (max-width:600px) {
+    .WomenNavbar{
+        flex-direction: column;
+    }
+    /* .womenmenu ul{
+        display: inline-block;
+        gap: 40px;
+        padding: 0 40px;
+        flex-wrap: nowrap;
+        overflow: auto;
+
+    }
+    .womenmenu ul li{
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0 40px;
+        display: inline-block;
+    } */
+
+    .womenFeaturedImg{
+        flex-direction: column;
+    }
+    .womenFeaturedImg img{
+        width: 93vw;
+    }
+    .WomenTrendingImg img{
+        width: 90vw;
+      }
+    .womenmoreImg{
+        margin: 40px 0;
+    }
+    .womenmoreImg img{
+        width: 100vw;
+    }
+    .womenGif img{ 
+        width: 90vw;
+        border-radius: 10px;
+        object-fit:fill;
+        height: 60vh;
+    }
+    .BuyingGuideImg{
+        margin: 40px 0;
+    }
+    .BuyingGuideImg img{
+        width: 90vw;
+    }
+    /* .womenshopBox{
+        gap: 10px !important;
+    } */
+    .womenShopInfromation{
+        margin: 10px;
+    }
+    .womenshopImg img{
+        width: 80vw;
+    }
+    .womenShopInfromation p {
+        font-size: 14px;
+        
+        font-weight: 500;
+    }
+    .womenShopBtn{
+        flex-direction: column;
+        align-items: start;
+    }
+}

@@ -1,0 +1,261 @@
+/* .customiseVideo video{
+    
+    
+} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.customContainer{
+padding: 20px 3vw;
+font-family: 'Roboto', sans-serif;
+}
+.CustomiseNavBar{
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background: #fff;
+    /* justify-content:space-evenly; */
+}
+.customH2{
+    width: 40%;
+    font-size: 24px;
+    font-weight: 500;
+}
+.CutomiseUl ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 10px 0;
+}
+.CutomiseUl ul li{
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px 0px;
+    color: #111111;
+}
+.CutomiseUl ul li:hover{
+    color: #767676;
+}
+
+.MainCustomiseGif{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 0;
+    /* border: 1px solid black; */
+}
+
+.customiseGifImg2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.MainCustomiseGif img{
+    width: 80vw;
+   border-radius: 20px;
+}
+.customiseGifImg2 img{
+    width: 80vw;
+    border-radius: 20px;  
+}
+.customiseGifImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.customiseGifImg img{
+    width: 30vw;
+}
+
+.CustomiseSlogone{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CustomiseSlogone h1{
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 5vmax;
+    line-height: 62px;
+    /* width: 50vw; */
+    letter-spacing: -5px;
+}
+.CustomiseSlogone h6{
+  margin: 15px 0;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 60%;
+    color: #414141;
+}
+.CustomiseBtn{
+    margin: 20px 0;
+}
+.CustomiseBtn button{
+
+    background: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 20px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.CustomiseBtn button:hover{
+    background-color: #767676;
+    cursor: pointer;
+}
+.memberShopimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.memberShopimg img{
+    width: 46vw;
+}
+.nikebyYouMainContainer{
+margin: 40px 0;
+}
+.Nikebyyou{
+    margin: 10px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    overflow-y: hidden;
+    padding: 10px 0vw;
+    scroll-behavior: smooth;
+    /* margin: 20px 0; */
+}
+.Nikebyyou::-webkit-scrollbar{
+    display: none;
+}
+.nikebyyoubar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.customBox{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cutomImg{
+    height: 80%;
+}
+.cutomImg img{
+    width: 30vw;
+}
+.cutominfromation{
+    padding: 20px 10px;
+}
+.cutomTitel{
+    font-size: 24px;
+    font-weight: 500;
+}
+.cutomStatus{
+    padding: 20px 0 0 0;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 500;
+    color: rgb(113, 113, 113);
+    cursor: pointer;
+}
+.cutomStatus:hover{
+    color: #bdbcbc;
+}
+
+@media screen and (max-width:600px) {
+    .customH2{
+        width: 100%;
+        /* flex: 1; */
+    }
+    .cutomImg img{
+        width: 80vw;
+    }
+    
+    .MainCustomiseGif img{
+        width: 90vw;
+       border-radius: 20px;
+    }
+    .customiseGifImg2{
+        display: none;
+    }
+    .CustomiseSlogone{
+        align-items: start;
+        
+    }
+    
+    .CustomiseSlogone h1{
+        width: 70%;
+        font-size: 6vmax; 
+        line-height: 40px;
+    }
+    .CustomiseSlogone h6{
+        width: 70%;
+        text-align: start;
+        margin-top: 20px;
+    }
+    .CustomiseBtn{
+        margin: 20px 0;
+    }
+    .CustomiseBtn button{
+    
+        background: #000;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        border-radius: 20px;
+        letter-spacing: 0.8px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    .memberShopimg{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 40px 0 60px 0 ;
+        gap: 10px;
+    }
+    .memberShopimg img{
+        width: 94vw;
+    }
+    .CustomiseNavBar{
+        padding:10px 0;
+    }
+    .customContainer{
+        padding: 0px 3vw;
+        font-family: 'Roboto', sans-serif;
+        }
+}

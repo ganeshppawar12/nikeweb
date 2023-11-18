@@ -1,0 +1,112 @@
+.upcomingContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+padding: 20px 2vw;
+flex-wrap: wrap;
+  gap: 15px;
+  cursor: pointer;
+}
+.upcomingimg{
+    height: 70%;
+    transition: all 1.5s ease;
+}
+.upcomingimg img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:30vw;
+}
+.upcomingIformation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;  
+}
+.UpcomingSNKRStitel{
+    font-weight: 400; 
+}
+.UpcominSNKRScolor{
+    font-weight: 500;
+    font-size: 20px;
+}
+.upcomingbox{
+    position: relative;
+}
+.UpcominSNKRSstutas{
+    display: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+   background: #ddd9d9;
+   color: #7e7e7e; 
+   padding:5px 10px ;
+   border-radius: 20px;
+}
+/* .UpcominSNKRSstutas{
+display: none;
+} */
+
+.relesedDate{
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+}
+.relesedmonth{
+    font-size: 20px;
+    font-weight: 500;
+}
+.relsedmothdate{
+    margin-left: 5px;
+    font-size: 25px;
+}
+.upcomingbox:hover .UpcominSNKRSstutas{
+    cursor: not-allowed;
+    display: block;
+}
+.upcomingbox:hover .UpcominSNKRScolor{
+    display: none;
+}
+.upcomingbox:hover .UpcomingSNKRStitel{
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+
+
+
+    .upcomingimg{
+        height: 70%;
+        transition: all 1.5s ease;
+    }
+    .upcomingimg img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:100vw;
+    }
+    .upcomingIformation{
+        margin-top: 20px;
+    }
+    .UpcomingSNKRStitel
+    {
+        text-align: center;
+        font-size: 16px;
+    }
+    .UpcominSNKRScolor
+    {
+        text-align: center;
+        font-size: 24px;
+    }
+    .UpcominSNKRSstutas{
+        margin-top: 10px;
+        display: block;
+    }
+    .upcomingbox:hover .UpcominSNKRScolor{
+        display: block;
+    }
+    .upcomingbox:hover .UpcomingSNKRStitel{
+        display: block;
+    }
+}

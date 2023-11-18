@@ -1,0 +1,449 @@
+/* .SNKRSMainContainer{
+    margin:0 10px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.SNKRSsubNAv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 20px ;
+    font-family: 'Roboto', sans-serif;
+
+}
+.visitNike p{
+    font-size: 12px;
+    color: #949494;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+
+}
+.arrowVistnike{
+    align-items: center;
+    height: 12px !important;
+    color: #949494;
+
+}
+.SNKRSInfo ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.SNKRSInfo ul li{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #949494;
+    font-weight: 400;
+}
+.SNKRSInfo ul li:hover{
+    color: #636363;
+    cursor: pointer;
+}
+.link2{
+text-decoration: none;
+}
+.SNKRSNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(193, 193, 193);
+    border-bottom: 1px solid rgb(193, 193, 193);
+    padding:0 20px ;
+    /* margin: 8px 0; */
+
+
+
+}
+.SNKRSLogo{
+    margin: 0;
+    color: red;
+    line-height: 0;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* .SNKRSLogo img{
+    margin-left: 5px;
+} */
+.SNKRSLogo p{
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+.SNKRSMenu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px; 
+}
+.SNKRSMenu ul li{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: #000000;
+    font-weight: 400; 
+    padding:10px 5px 13px 5px;
+}
+.SNKRSMenu ul li:hover{
+    border-bottom: 2px solid black;
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+
+.prodtuctlistMainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding: 20px 1vw;
+}
+.productlistContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  /* overflow-y: hidden; */
+  flex-wrap: wrap;
+  gap: 15px;
+  cursor: pointer;
+ 
+
+}
+.productlistContainer2{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+  /* overflow-y: hidden; */
+  /* padding: 10px; */
+  flex-wrap: wrap;
+  /* gap: 10px; */
+  cursor: pointer;
+}
+
+.productlistbox{
+  /* padding: 0px 10px; */
+  margin-bottom: 25px;
+
+
+}
+.productlistbox2{
+    margin: 0;
+}
+.SNKRSimg {
+    height: 70%;
+    transition: all 1.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px 0; */
+}
+.SNKRSimg img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:30vw;
+}
+.SNKRSimg img:hover{
+    filter: brightness(110%);
+}
+.SNKRSimg2{
+    transition: all 1.5s ease;
+
+}
+.SNKRSimg2 img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px ;
+    width: 15vw;
+}
+.SNKRSimg2 img:hover{
+    filter: brightness(110%);
+
+}
+.SNKRSiformation{
+    /* padding: 10px 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+.SNKRSiformation2{
+    display: none;
+    padding: 0;
+}
+.SNKRStitel{
+    font-weight: 400;
+
+}
+.buyiteam{
+    display: none;
+    font-size: 18px;
+    /* display: flex;
+    align-items: center; */
+    background-color: #000;
+    padding: 6px 18px;
+    border-radius: 20px;
+    color: #fff;
+}
+.productlistbox:hover .buyiteam{
+    display: block;
+}
+.SNKRStitel2{
+display: none;
+
+}
+.SNKRScolor{
+    font-weight: 500;
+    font-size: 20px;
+}
+.SNKRScolor2{
+    display: none;
+}
+.SNKRSstatus{
+    display: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+   background: #ddd9d9;
+   color: #7e7e7e; 
+   padding:5px 10px ;
+   border-radius: 20px;
+}
+.itesmsold{
+    display: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+   background: #ddd9d9;
+   color: #7e7e7e; 
+   padding:5px 10px ;
+   border-radius: 20px; 
+}
+.SNKRSstatus2{
+display: none;
+}
+.productlistbox:hover .itesmsold{
+    transition: all 2s ease;
+    display: block;
+}
+.productlistbox:hover .SNKRSstatus{
+    transition: all 2s ease;
+
+    display: block;
+}
+.productlistbox:hover .SNKRStitel{
+    display: none;
+}
+.productlistbox:hover .SNKRScolor{
+    display: none;
+}
+.samllUlList{
+    display: none;
+}
+.smallullist2{
+    display: none;
+}
+.SNKRSLogosmall{
+    display: none;
+}
+@media screen and (max-width:960px) {
+    .SNKRSimg img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:40vw;
+    }
+    .SNKRStitel{
+        font-size: 14px;
+    }
+    .SNKRScolor{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:600px) {
+.SNKRSsubNAv{
+    padding: 0;
+}
+    .visitNike{
+        display: none;
+    }
+    .SNKRSInfo ul li{
+        display: none;
+    }
+    .SnkrsCart{
+        display:block;
+    }
+    .SNKRSNavbar{
+        flex-direction: column;
+        border: none;
+        padding: 0;
+    }
+
+    .SNKRSLogo{
+       display: none;
+    }
+    .SNKRSLogosmall{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .samllUlList{
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: 5px;
+        background: #000;
+        display: block;
+        z-index: 2;
+       
+    }
+    .samllUlList ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30% 0;
+    
+    }
+    .samllUlList ul li{
+        font-family: 'Roboto' ,sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        padding: 10px ;
+    }
+.SNKRSLogosmall{
+    padding: 10px 0;
+}
+.SNKRSLogosmallimg{
+    margin: 0;
+    color: red;
+    line-height: 0;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.SNKRSLogosmallimg{
+    margin-left: 5px;
+}
+.SNKRSLogosmallimg p{
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+    .SNKRSSmallNavbarCart{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        margin-right: 10px;
+    }
+    .SNKRSLogo{
+        align-self: self-start;
+    }
+    .SmallCart{
+        color: #585858;
+
+    }
+    .SNKRSMenu{
+        padding-top: 10px;
+        border-bottom: 1px solid rgb(206, 206, 206);
+ width: 100%;
+    }
+    .SNKRSMenu ul{
+        justify-content: center;
+    }
+    .SNKRSMenu ul li{
+     justify-content: center;
+        font-size: 16px;
+        color: #111111;
+
+      
+    }
+   .inStockContainer{
+    padding: 0;
+   }
+    .productlistbox{
+        /* padding: 0px 10px; */
+        margin-bottom: 25px;
+        width: 100%;
+      
+      
+      }
+      .SNKRSimg {
+        height: 70%;
+        transition: all 1.5s ease;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        /* padding: 20px 0; */
+    }
+    .SNKRSimg img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:100vw;
+    }
+    .SNKRSimg2 img:hover{
+        filter: brightness(100%);
+    
+    }
+
+
+    .SNKRSimg2 img{
+       
+        /* margin: 5px ; */
+        width: 45vw;
+    }
+    .SNKRScolor{
+        text-align: center;
+        display: block;
+        font-size: 24px;
+    }
+    .SNKRStitel{
+        display: block;
+
+        font-size: 16px;
+    }
+    .SNKRSiformation{
+        padding: 80px 0;
+    }
+    .productlistbox:hover .SNKRStitel{
+        display: block;
+    }
+    .productlistbox:hover .SNKRScolor{
+        display: block;
+    }
+    .SNKRSstatus{
+        margin-top: 20px;
+        display: block;
+    }
+    .buyiteam{
+        display: block;
+        margin-top: 20px;
+
+
+    }
+    .DisplayMode{
+        padding: 10px 0;
+        margin: 10px 0;
+    }
+}

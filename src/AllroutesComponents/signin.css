@@ -1,0 +1,79 @@
+.SignInContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    
+}
+.LoginLogo img{
+    height: 25px;
+    /* display: flex;
+    flex-direction: row; */
+    align-self: self-start;
+}
+.EmailContainer h2{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.EmailContainer h5{
+    font-size: 16px;
+    font-weight: 500;
+    /* padding: 10px 0; */
+}
+.change{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(194, 196, 196);
+    text-decoration: underline;
+}
+.inputBox{
+    outline: none;
+    padding: 10px;
+}
+.inputBox input{
+    padding: 20px;
+    border-radius: 10px;
+    width: 31vw;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid rgb(168, 168, 168);
+}
+.privecy h5{
+    font-size: 16px;
+    font-weight: 200;
+    color:rgb(133, 133, 133);
+align-self: start;
+
+}
+.pre{
+    text-decoration: underline;
+    color:rgb(83, 83, 83);
+}
+.conbtn button{
+    background: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+
+
+    .EmailContainer h2{
+        font-size: 25px;
+        font-weight: 400;
+        padding: 10px 0;
+    }
+    .EmailContainer h5{
+        font-size: 16px;
+        font-weight: 500;
+        /* padding: 10px 0; */
+    }
+    .inputBox input{
+        width: 85vw;
+    }
+}

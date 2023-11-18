@@ -1,0 +1,98 @@
+.AlwaysIconicMainContainer{
+    padding: 20px 3.4vw;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+
+}
+.AlwaysIconicContainer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+    overflow-y: hidden;
+}
+.AlwaysHead{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;  
+}
+.AlwaysBtn{
+display: flex;
+align-items: center;
+justify-content: center;
+    position: absolute;
+    top: 50%;
+    background: #fff;
+    /* height:  5px; */
+    padding: 10px;
+    left: 5vw;
+    
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #a7a7a7;
+
+
+}
+.AlwaysBtn2{
+    display: flex;
+align-items: center;
+justify-content: center;
+    position: absolute;
+    top: 50%;
+    color: #a7a7a7;
+    background: #fff;
+    /* height:  5px; */
+    padding: 10px;
+    right: 5vw;
+    color: #a7a7a7;
+
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.AlwaysBtn:active{
+    background-color: #eae9e9;
+
+
+}
+.AlwaysBtn2:active{
+    background-color: #eae9e9;
+
+}
+.AlwaysIconicContainer::-webkit-scrollbar{
+    display: none;
+    /* height:6px; */
+    /* border-radius: 5px; */
+    /* width:20vw; */
+ /* background: #c0c0c0; */
+ /* scroll-behavior: smooth; */
+}
+/* ::-webkit-scrollbar {
+    width: 10px;
+ scrollbar-color:#000;
+
+  } */
+.alwaysImg img{
+    width: 20vw;
+}
+.alwaysPara{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(139, 140, 142);
+}
+
+@media screen and (max-width:600px) {
+    .alwaysImg img{
+        width: 80vw;
+    }
+    .AlwaysBtn, .AlwaysBtn2{
+        display: none;
+    }
+}
